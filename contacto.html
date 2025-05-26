@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto | El Recursero de la Seño</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <img src="./src/Logo.webp" alt="Logo El Recursero de la Seño" class="logo-encabezado"/>
+      <nav>
+        <ul>
+          <li><a class="enlace-encabezado" href="./index.html">Inicio</a></li>
+          <li><a class="enlace-encabezado" href="./productos.html">Productos</a></li>
+          <li><a class="enlace-encabezado" href="./resenas.html">Reseñas</a></li>
+          <li><a class="enlace-encabezado activo" href="./contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="contacto">
+        <h2>Contacto</h2>
+        <form>
+          <label for="nombre">Nombre</label>
+          <input type="text" id="nombre" name="nombre" required />
+
+          <label for="correo">Correo electrónico</label>
+          <input type="email" id="correo" name="correo" required />
+
+          <label for="mensaje">Mensaje</label>
+          <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2025 El Recursero de la Seño</p>
+    </footer>
+  </body>
+</html>
